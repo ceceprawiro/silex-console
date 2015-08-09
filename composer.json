@@ -1,0 +1,14 @@
+{
+    "require": {
+        "silex/silex": "^1.3",
+        "knplabs/console-service-provider": "^1.0",
+        "igorw/config-service-provider": "^1.2",
+        "monolog/monolog": "^1.15",
+        "symfony/monolog-bridge": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
